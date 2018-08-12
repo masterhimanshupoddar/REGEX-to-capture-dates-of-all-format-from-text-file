@@ -10,3 +10,13 @@ Mar 20th, 2009; Mar 21st, 2009; Mar 22nd, 2009 <br>
 Feb 2009; Sep 2009; Oct 2010 <br>
 6/2008; 12/2009 <br>
 2009; 2010 <br>
+
+The example text file can found in the repo
+
+Supppose you want to matcha character but does not want to capture it, you can use ?=character
+
+To save in a xlsx file
+from pandas import ExcelWriter
+writer = ExcelWriter(r'C:\Users\Himanshu Poddar\Desktop\Coursera courses\Applied text mining with python\assignment1dates.xlsx')
+fg.to_excel(writer,'Sheet1')
+writer.save()
