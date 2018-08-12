@@ -15,8 +15,8 @@ The example text file can found in the repo
 
 Supppose you want to matcha character but does not want to capture it, you can use ?=character
 
-To save in a xlsx file
-from pandas import ExcelWriter
-writer = ExcelWriter(r'C:\Users\Himanshu Poddar\Desktop\Coursera courses\Applied text mining with python\assignment1dates.xlsx')
-fg.to_excel(writer,'Sheet1')
-writer.save()
+To save in a xlsx file <br>
+from pandas import ExcelWriter <br>
+writer = ExcelWriter(r'C:\Users\Himanshu Poddar\Desktop\Coursera courses\Applied text mining with python\assignment1dates.xlsx') <br>
+fg.to_excel(writer,'Sheet1') <br>
+writer.save() <br>
