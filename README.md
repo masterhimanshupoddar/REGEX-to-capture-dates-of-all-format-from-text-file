@@ -5,6 +5,7 @@ A Sample test file is present at `dates.txt`
 
 ### Date variants the code can extract : 
 
+
 | 1. | 04/20/2009 | 04/20/09 | 4/20/09 | 4/3/09 |
 |---|------------|----------|---------|--------|
 
